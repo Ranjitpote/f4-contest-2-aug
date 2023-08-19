@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-mulish: Mulish;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-darkslategray-100: #333;
+  --color-gray: #757575;
+  --color-gainsboro: #dedede;
+  --color-mediumslateblue: #625bf7;
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-xs: 12px;
+
+  /* border radiuses */
+  --br-7xs: 6px;
+}

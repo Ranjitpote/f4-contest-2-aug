@@ -1,0 +1,152 @@
+.background-pattern-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 750px;
+}
+.sign-up {
+  color: var(--color-mediumslateblue);
+}
+.dont-have-an-container {
+  position: absolute;
+  top: 604px;
+  left: 553px;
+}
+.white-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: var(--color-white);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.05);
+  width: 444px;
+  height: 454px;
+}
+.label {
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.continue-cta {
+  position: absolute;
+  top: 324px;
+  left: 46px;
+  border-radius: var(--br-7xs);
+  background: linear-gradient(180deg, #625bf7, #463eea);
+  width: 352px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  padding: 9px 14px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: var(--color-white);
+}
+.sign-in-to {
+  position: absolute;
+  top: 73px;
+  left: 48px;
+  font-size: 24px;
+}
+.forget-your-password {
+  position: absolute;
+  top: 389px;
+  left: 157px;
+  font-size: var(--font-size-xs);
+  color: var(--color-mediumslateblue);
+  text-align: center;
+}
+.your-email {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.value {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  display: none;
+  align-items: center;
+  height: 36px;
+}
+.email-input-field {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 352px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+  color: #424242;
+}
+.email,
+.password-input-field {
+  position: absolute;
+  top: 133px;
+  left: 46px;
+  width: 352px;
+  height: 73px;
+}
+.password-input-field {
+  top: 28px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray);
+}
+.password {
+  position: absolute;
+  top: 221px;
+  left: 46px;
+  width: 352px;
+  height: 73px;
+}
+.span {
+  color: var(--color-darkslategray-100);
+}
+.welcome-back-container {
+  position: absolute;
+  top: 50px;
+  left: 48px;
+  color: var(--color-gray);
+}
+.sign-in-card {
+  position: absolute;
+  top: 100px;
+  left: 418px;
+  width: 444px;
+  height: 454px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.sign-in-page-desktop {
+  position: relative;
+  background-color: #f8fafc;
+  width: 100%;
+  height: 750px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-mulish);
+}
